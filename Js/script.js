@@ -4,7 +4,7 @@ const generatedPasswordElement = document.querySelector("#generated-password");
 
 // Após refatoração
 const openCloseGeneratorButton = document.querySelector(
-"#open-generate-password"
+  "#open-generate-password"
 );
 const generatePasswordContainer = document.querySelector("#generate-options");
 const lengthInput = document.querySelector("#length");
@@ -27,7 +27,7 @@ const getNumber = () => {
 };
 
 const getSymbol = () => {
-const symbols = "(){}[]=<>/,.!@#$%^&*";
+  const symbols = "(){}[]=<>/,.!@#$%^&*";
   return symbols[Math.floor(Math.random() * symbols.length)];
 };
 
